@@ -1,0 +1,13 @@
+#python program to print positive numbers in a list
+
+list = []
+
+n=int(input("Enter the number of elements you want in list:"))
+for i in range(1,n+1):
+    a = int(input("Enter the %d value :"%i))
+    list.append(a)
+
+print("\nPositive numbers in list are:")
+for j in range(n):
+    if(list[j]>=0):
+        print(list[j],end=' ')
